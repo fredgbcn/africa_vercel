@@ -27,7 +27,7 @@ import './CreateEvent.css';
                 content: input.content,
                 place: input.place
             }
-            axios.post(`http://localhost:3001${process.env.REACT_APP_CREATE}`, newNote);
+            axios.post(`http://localhost:3001/${process.env.REACT_APP_CREATE}`, newNote);
         }
         return (<div>
             <h1>Create Note</h1>.
